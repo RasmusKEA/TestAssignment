@@ -332,6 +332,15 @@
           "build/netcoreapp2.1/Microsoft.TestPlatform.TestHost.props": {}
         }
       },
+      "MySqlConnector/2.1.13": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        }
+      },
       "NETStandard.Library/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -886,6 +895,9 @@
       "ConvertingTesting/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MySqlConnector": "2.1.13"
+        },
         "compile": {
           "bin/placeholder/ConvertingTesting.dll": {}
         },
@@ -1600,6 +1612,35 @@
         "lib/uap10.0/testhost.dll",
         "microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
         "microsoft.testplatform.testhost.nuspec"
+      ]
+    },
+    "MySqlConnector/2.1.13": {
+      "sha512": "Y3qts7mnuZ4EGEQOI4xJ1n+9ZJOmrcwD2CdqyAXuQONBkrc2ENDywE6ZBysFaRojXrnWzLXpc595+GYlN/PI9Q==",
+      "type": "package",
+      "path": "mysqlconnector/2.1.13",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net5.0/MySqlConnector.dll",
+        "lib/net5.0/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.1.13.nupkg.sha512",
+        "mysqlconnector.nuspec"
       ]
     },
     "NETStandard.Library/2.0.0": {
@@ -3876,11 +3917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertTest/ConvertTest.csproj",
+      "projectUniqueName": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertTest/ConvertTest.csproj",
       "projectName": "ConvertTest",
-      "projectPath": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertTest/ConvertTest.csproj",
+      "projectPath": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertTest/ConvertTest.csproj",
       "packagesPath": "/Users/rasmusmoller/.nuget/packages/",
-      "outputPath": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertTest/obj/",
+      "outputPath": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rasmusmoller/.nuget/NuGet/NuGet.Config"
@@ -3895,8 +3936,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj": {
-              "projectPath": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj"
+            "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj": {
+              "projectPath": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj"
             }
           }
         }

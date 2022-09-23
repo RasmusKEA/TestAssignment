@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F7QssFe8jJAXoD7oNGKuYG0ISLAzlWEAoxRz9nLBYNXIyXnuaDzLdLCP/41LbpWI2fSf7jSuJCXCkoz2Z6qWrQ==",
+  "dgSpecHash": "6bZLnyF0n/5vg9UXZ7TJkfe/vp4viquJeeC8njd4NPq44DiMclKzSDsXdS5MumKu8DyCZdQrNx5Yp89p8bq+yg==",
   "success": true,
-  "projectFilePath": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertTest/ConvertTest.csproj",
+  "projectFilePath": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertTest/ConvertTest.csproj",
   "expectedPackageFiles": [
     "/Users/rasmusmoller/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/rasmusmoller/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",
@@ -12,6 +12,7 @@
     "/Users/rasmusmoller/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "/Users/rasmusmoller/.nuget/packages/microsoft.testplatform.objectmodel/16.11.0/microsoft.testplatform.objectmodel.16.11.0.nupkg.sha512",
     "/Users/rasmusmoller/.nuget/packages/microsoft.testplatform.testhost/16.11.0/microsoft.testplatform.testhost.16.11.0.nupkg.sha512",
+    "/Users/rasmusmoller/.nuget/packages/mysqlconnector/2.1.13/mysqlconnector.2.1.13.nupkg.sha512",
     "/Users/rasmusmoller/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/rasmusmoller/.nuget/packages/newtonsoft.json/9.0.1/newtonsoft.json.9.0.1.nupkg.sha512",
     "/Users/rasmusmoller/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",

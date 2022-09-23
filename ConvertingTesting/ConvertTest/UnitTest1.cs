@@ -145,4 +145,35 @@ public class Tests
         Assert.AreEqual(expected.ToString("#.##"), convertedTemp);
     }
 
+    [Test] 
+    public void ConvertGradesDKtoUS()
+    {
+        //Arrange
+        var convert = new Convert();
+
+        //Act
+        var convertedGrade = convert.ConvertGradeTo("us", "10");
+        const string expected = "A";
+
+        //Assert
+        Assert.AreEqual(expected, convertedGrade);
+    }
+    
+    [Test] 
+    public void ConvertGradesUStoDK()
+    {
+        //Arrange
+        var convert = new Convert();
+
+        //Act
+        var convertedGrade = convert.ConvertGradeTo("dk", "A");
+        const string expected = "10";
+
+        //Assert
+        Assert.AreEqual(expected, convertedGrade);
+    }
+    
+
+
+
 }
