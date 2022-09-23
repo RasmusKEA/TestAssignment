@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj": {}
+    "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj": {}
   },
   "projects": {
-    "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj": {
+    "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj",
+        "projectUniqueName": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj",
         "projectName": "ConvertingTesting",
-        "projectPath": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj",
+        "projectPath": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/ConvertingTesting.csproj",
         "packagesPath": "/Users/rasmusmoller/.nuget/packages/",
-        "outputPath": "/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/",
+        "outputPath": "/Users/rasmusmoller/Desktop/TestAssignment/ConvertingTesting/ConvertingTesting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rasmusmoller/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,10 +1,13 @@
-﻿namespace ConvertingTesting
+﻿using MySqlConnector;
+
+namespace ConvertingTesting
 {
     /// <summary>
     /// Bank account demo class.
     /// </summary>
     public class Convert
     {
+        string connStr = "server=localhost;user=user;database=testing;port=3306;password=password";
         public string ConvertLengthTo(double amount, string metric)
         {
          var cmToIn = amount * 0.393701;
@@ -60,6 +63,48 @@
             }
         }
 
+        public object ConvertGradeTo(string country, string grade)
+        {
+            MySqlConnection conn = new MySqlConnection(connStr);
+            try
+            {
+                Console.WriteLine("Connecting to MySQL...");
+                conn.Open();
+
+                var sql = country switch
+                {
+                    "dk" => "select * from Grades WHERE gradesUS = @grade",
+                    "us" => "select * from Grades WHERE gradeDK = @grade",
+                    _ => ""
+                };
+                
+                var cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@grade", grade);
+                var rdr = cmd.ExecuteReader();
+
+                var result = "";
+                while (rdr.Read())
+                {
+                    switch (country)
+                    {
+                        case "us":
+                            return rdr.GetString(2);
+                        case "dk":
+                            return rdr.GetString(1);
+                    }
+                    rdr.Close();
+                    conn.Close();
+                }
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.ToString());
+            }
+
+            return "";
+        }
+            
+
         public static void Main()
         {
             var convert = new Convert();
@@ -75,6 +120,8 @@
             Console.WriteLine(convert.ConvertTemps(100, "k", "f"));
             Console.WriteLine(convert.ConvertTemps(100, "f", "c"));
             Console.WriteLine(convert.ConvertTemps(100, "f", "k"));
+
+            Console.WriteLine(convert.ConvertGradeTo("dk", "F-"));
         }
     }
 }
