@@ -1,0 +1,15 @@
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/bin/Debug/net6.0/ConvertingTesting
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/bin/Debug/net6.0/ConvertingTesting.deps.json
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/bin/Debug/net6.0/ConvertingTesting.runtimeconfig.json
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/bin/Debug/net6.0/ConvertingTesting.dll
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/bin/Debug/net6.0/ref/ConvertingTesting.dll
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/bin/Debug/net6.0/ConvertingTesting.pdb
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.csproj.AssemblyReference.cache
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.AssemblyInfoInputs.cache
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.AssemblyInfo.cs
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.csproj.CoreCompileInputs.cache
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.dll
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ref/ConvertingTesting.dll
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.pdb
+/Users/rasmusmoller/RiderProjects/ConvertingTesting/ConvertingTesting/obj/Debug/net6.0/ConvertingTesting.genruntimeconfig.cache
